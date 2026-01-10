@@ -10,7 +10,7 @@ public class SumOfNum {
 		while(num>0) {
 			add=num%10;        //Give Last Digit (Remainder)
 			res=res+add;
-			num=num/10;        
+			num=num/10;        //Gives quotient(Answer)
 		}
 		System.out.println(res);
 
