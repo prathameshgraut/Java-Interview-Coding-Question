@@ -4,7 +4,7 @@ public class SumOfNum {
 
 	public static void main(String[] args) {
 		
-		int num=555;
+		int num=888;
 		int res=0,add;
 		
 		while(num>0) {
