@@ -4,17 +4,19 @@ public class Palindrome {
 
 	static void print(int num) {
 		int sum=num;
-		int res=0;
-		for(int i=0;i<num;i++) {
-			res = res + i;
+		int res=0,add;
+		while(num>0) {
+			add= num%10;
+			res=res*10+add;
+			num=num/10;
 		}
-		if(sum==num)
-			System.out.println(num+" Is A Palindrome Number");
+		if(sum==res)
+			System.out.println(res+" Is A Palindrome Number");
 		else
-			System.out.println(num+" Is A Not Palindrome Number");
+			System.out.println(sum+" Is A Not Palindrome Number");
 	}
 	public static void main(String[] args) {
-		print(153);
+		print(151);
 	}
 
 }
