@@ -12,7 +12,7 @@ public class LeapYear {
 	}
 
 	public static void main(String[] args) {
-		/*This are Check Leap Year Using User Input*/
+		/*This are Check Leap Year Using User-Input*/
 		Scanner sc = new Scanner(System.in);
 		int year;
 		System.out.print("Enter A Year : ");
