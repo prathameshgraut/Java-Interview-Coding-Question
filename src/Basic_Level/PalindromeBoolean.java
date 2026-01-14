@@ -2,6 +2,7 @@ package Basic_Level;
 
 public class PalindromeBoolean {
 	
+	/*Using Hard Coded Data & Print Boolean Value = true OR false*/
 	static void print() {
 		int num=151;
 		int sum=num,add,res=0;
