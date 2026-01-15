@@ -2,6 +2,7 @@ package Basic_Level;
 
 public class PrimeNumber1To100 {
 
+	/*Print 1 To 100 Prime Number*/
 	static void print() {
 		for(int i=0;i<=100;i++) {
 			int num=i;
