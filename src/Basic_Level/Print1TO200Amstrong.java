@@ -2,7 +2,7 @@ package Basic_Level;
 
 public class Print1TO200Amstrong {
 	static void show() {
-		
+		/*Print 1 To 200 Prime number*/
 		for(int i=0;i<200;i++) {
 			int num=i;
 			int sum=num;
