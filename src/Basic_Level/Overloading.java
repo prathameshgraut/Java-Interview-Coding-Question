@@ -19,11 +19,25 @@ public class Overloading {
 		System.out.println("Subject :"+sub+"\tStandard :"+std);
 	}
 	
-	public static void main(String[] args) {
-		System.out.println("Print Of Details Using A Method Overloading......");
+	
+	/*This Method To Created & Handle set Data Of Method Overloading Operation */
+	static void alldata() {
 		Student(101,"Prathamesh Raut");
 		Student("Jamner",78.9);
 		Student(8010807120l,"A+");
 		Student("Java","14th");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Print Of Details Using A Method Overloading......");
+		
+		alldata();
+		
+	/*	
+		Student(101,"Prathamesh Raut");   //Same Logic but Implemented Different Way
+		Student("Jamner",78.9);
+		Student(8010807120l,"A+");
+		Student("Java","14th");
+	*/
 	}
 }
