@@ -20,7 +20,7 @@ public class Demo {
 			System.out.print(arr[i]+" ");
 		
 		/*This Line Used To Print All Data In Array(Using A Function To Use And Get All Data)*/
-		System.out.print("\n\nShow All Array Using Arrays.toString() Function :");
+		System.out.print("\n\nShow All Array Using Arrays.toString() Function : ");
 		System.out.print(Arrays.toString(arr));
 	}
 	
