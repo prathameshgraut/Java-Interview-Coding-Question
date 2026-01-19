@@ -16,7 +16,7 @@ public class ReverseArray {
 		 System.out.print("]");
 	}
 	
-	/*Print Reverse Array using Another Array(Stored Reverse Array In Another Array)*/
+	/*Print Reverse Array using Another Array( Stored Reverse Array In Another Array)*/
 	static void print1() {
 		int arr[]= {1,2,3,4,5,6,7,8,9,10};
 		int srr[]=new int[arr.length];
