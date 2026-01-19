@@ -16,7 +16,21 @@ public class ReverseArray {
 		 System.out.print("]");
 	}
 	
+	/*Print Reverse Array using Another Array(Stored Reverse Array In Another Array)*/
+	static void print1() {
+		int arr[]= {1,2,3,4,5,6,7,8,9,10};
+		int srr[]=new int[arr.length];
+		int j=0;
+		
+		System.out.println("\n\nPrint Original Array:"+Arrays.toString(arr));
+		for(int i=arr.length-1;i>=0;i--) {
+			srr[j]=arr[i];
+			j++;
+		}
+		System.out.println("Print Reverse Array:"+Arrays.toString(srr));
+	}
 	public static void main(String[] args) {
 		print();
+		print1();
 	}
 }
