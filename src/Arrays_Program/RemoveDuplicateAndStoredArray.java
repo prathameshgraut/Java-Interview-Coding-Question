@@ -7,6 +7,7 @@ public class RemoveDuplicateAndStoredArray {
 	static void show() {
 		int arr[]= {1, 2, 3, 4, 5, 2, 4, 6, 7, 8, 9, 1, 10, 5, 10};
 		
+		/*Its Used For To Creating Perfect Size Of Array*/
 		int count=0;
 		
 		System.out.println("Show Original Array :"+Arrays.toString(arr));
