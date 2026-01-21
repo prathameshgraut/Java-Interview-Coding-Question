@@ -60,6 +60,7 @@ public class FindLargest_SecondLargest {
 		}
 public static void main(String[] args) {
 	show(); //1.Using Hard Coded Data
+	
 	Show(); //2.Using User-Input Data
 	
 	int arr[]= {10, 21, 32, 44, 67, 98, 75, 12, 5, 73};
