@@ -16,11 +16,11 @@ public class SwapArray {
 			temp[i]=arr[i];
 		}
 		
-		for(int i=0;i<srr.length;i++) {
+		for(int i=0;i<srr.length;i++) {      //Swap arr 🔁 srr
 			arr[i]=srr[i];
 		}
 		
-		for(int i=0;i<temp.length;i++) {
+		for(int i=0;i<temp.length;i++) {     //Swap srr 🔁 temp
 			srr[i]=temp[i];
 		}
 		System.out.println("\nShow , After Swapping Array...."+"\nPrint Arr Array:"+Arrays.toString(arr)+"\nPrint Srr Array:"+Arrays.toString(srr));
