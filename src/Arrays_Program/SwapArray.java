@@ -8,9 +8,11 @@ public class SwapArray {
 		int arr[]= {10,20,30,40,50};
 		int srr[]= {60,70,80,90,100};
 		System.out.println("Show , Before Swapping Array...."+"\nPrint Arr Array:"+Arrays.toString(arr)+"\nPrint Srr Array:"+Arrays.toString(srr));
+		
+		/*This Is Used To Stored Temp Array & Switch */
 		int temp[]= new int[arr.length];
 		
-		for(int i=0;i<arr.length;i++) {
+		for(int i=0;i<arr.length;i++) {      //Swap temp 🔁 arr
 			temp[i]=arr[i];
 		}
 		
