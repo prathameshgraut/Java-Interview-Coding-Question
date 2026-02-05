@@ -1,7 +1,7 @@
 package String_Program;
 
 public class Find_VowelsANDPrint__Symbol {
-	
+
 	
 	//This is Solve Vowels Using Hard Coded String
 	public void Print() {
