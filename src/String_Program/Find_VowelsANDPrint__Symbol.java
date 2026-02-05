@@ -7,6 +7,7 @@ public class Find_VowelsANDPrint__Symbol {
 	
 	//This is Solve Vowels Using Hard Coded String
 	public void Print() {
+		System.out.println("Function No.1,\nUsing A Hard_Coded Data.....!");
 		String str="Stranger";
 		String res="";
 		for(int i=0;i<str.length();i++) {
@@ -23,6 +24,7 @@ public class Find_VowelsANDPrint__Symbol {
 	
 	//This is Solve A Vowel's Issue Using Passing Parameter's In Function
 	public void Print1(String str) {
+		System.out.println("\n\nFunction No.2,\nUsing A Argument's.....!");
 		String res="";
 		for(int n =0;n<str.length();n++) {
 			char ch=str.charAt(n);
@@ -38,6 +40,7 @@ public class Find_VowelsANDPrint__Symbol {
 	
 	//This is Function To Solve A Vowel's Issue Using User-Input Data
 	public void Print2() {
+		System.out.println("\n\nFunction No.3,\nUsing A User-Input.....!");
 		String str="";
 		Scanner Sc = new Scanner(System.in);
 		System.out.print("Enter A String :");
@@ -60,5 +63,7 @@ public static void main(String[] args) {
 	
 	String str="Maharashtra";
 	fvs.Print1(str);
+	
+	fvs.Print2();
 }
 }
