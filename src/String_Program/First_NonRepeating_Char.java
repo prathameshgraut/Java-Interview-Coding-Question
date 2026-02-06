@@ -18,7 +18,7 @@ public class First_NonRepeating_Char {
 				break;
 			}
 		}if(res!=0) {
-			System.out.println(res);
+			System.out.println("Show First Non-Repeated Character :"+res);
 		}
 	}
 	
