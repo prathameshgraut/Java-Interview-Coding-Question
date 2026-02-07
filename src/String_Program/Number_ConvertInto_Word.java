@@ -3,7 +3,7 @@ package String_Program;
 public class Number_ConvertInto_Word {
 
 	static void print() {
-		String num = "0712";
+		int num = 712;
 		
 		String word[]= {
 			"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","nine"	
