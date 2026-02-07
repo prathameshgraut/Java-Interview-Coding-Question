@@ -2,18 +2,16 @@ package Recursion;
 
 public class Print_PrimeNumber_1to100 {
 	
-	public static void show(int num) {
-		int N=2;
+	public static void show(int num,int N) {
 		if(num<=100) {
-			if(num%N==1) {
+			if(num%N!=0) {
 				System.out.print(num+" ");
-				N++;
 			}
+			show(num+1,N++);
 		}
-		show(num+1);
 	}
 	
 	public static void main(String[] args) {
-		show(1);
+		show(1,2);
 	}
 }
