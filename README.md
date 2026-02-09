@@ -49,7 +49,7 @@ Java-Interview-Questions/
 ## ▶️ How to Use
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/java-interview-questions.git
+   https://github.com/prathameshgraut/Java-Interview-Coding-Question.git
    ```
 2. Open the project in Eclipse / IntelliJ
 3. Run `.java`    files using         `Run As → Java Application`
